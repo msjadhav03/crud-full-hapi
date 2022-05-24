@@ -1,0 +1,49 @@
+{
+  "name": "hapi-crud-full",
+  "version": "1.0.0",
+  "description": "CRUD App",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msjadhav03/crud-full-hapi.git"
+  },
+  "keywords": [
+    "CRUD",
+    "Hapi",
+    "MongoDB",
+    "MySQL",
+    "mongoose",
+    "sequelize",
+    "knex",
+    "hapi-auth-jwt2",
+    "hapi"
+  ],
+  "author": "Manisha Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msjadhav03/crud-full-hapi/issues"
+  },
+  "homepage": "https://github.com/msjadhav03/crud-full-hapi#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/jwt": "^2.1.1",
+    "@hapi/vision": "^6.1.0",
+    "app-module-path": "^2.2.0",
+    "async": "^3.2.3",
+    "boom": "^7.3.0",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-swagger": "^14.5.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.0.0",
+    "mongoose": "^6.3.4",
+    "mysql2": "^2.3.3",
+    "redis": "^4.1.0",
+    "sequelize": "^6.19.2",
+    "vision": "^5.4.4"
+  }
+}

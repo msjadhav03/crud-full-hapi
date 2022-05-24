@@ -1,0 +1,29 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 4000
+    },
+    "database": {
+        "mysql": {
+            "username": "mani",
+            "password": "mani1234",
+            "name": "crud-hapi-mysql",
+            "options": {
+                "host": "127.0.0.1",
+                "port": 3306
+            }
+        },
+        "mysql2": {
+            "username": "mani",
+            "password": "mani1234",
+            "name": "crud-knex-hapi",
+            "options": {
+                "host": "127.0.0.1",
+                "port": 3306
+            }
+        }
+    },
+    "jwt": {
+        "key": "SQOP21WEXD"
+    }
+}
